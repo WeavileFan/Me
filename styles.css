@@ -1,15 +1,17 @@
 body {
   background-color:black;
   text-align:center;
-  font-family:"times new roman"
-  font-size:300%;
 }
 
-p {
+p { 
   color:white;
+  font-size:200%;
+  font-family:"times new roman"
 }
 
 h1{
   color:white;
+  font-size:200%;
+  font-family:"times new roman"
 }
 
