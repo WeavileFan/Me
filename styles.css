@@ -12,7 +12,6 @@ body {
   background-color: var(--color-bg);
   text-align:center;
   font-family:"times new roman";
-  font-size:200%;
 }
 
 p { 
@@ -21,6 +20,7 @@ p {
 
 h1{
   color: var(--color-fg);
+  text-shadow:  0 0 10px var(--color-a), 0 0 20px var(--color-a), 0 0 30px var(--color-a), 0 0 40px var(--color-a);
 }
 
 a {
