@@ -39,7 +39,7 @@ a {
 
 .row1 {grid-row:1;}
 .row2 {grid-row:2;}
-footer {background-color:#2b2b2b;
+footer {background-color:red;
         color:white;
         text-align:center;
         font-size:75%;
