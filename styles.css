@@ -26,13 +26,12 @@ h1{
 h2{
   color: var(--color-fg);
   text-shadow: 0 0 10px var(--color-a), 0 0 20px var(--color-a), 0 0 30px var(--color-a), 0 0 40px var(--color-a);
-}  /* ← This was missing */
+}
 
 a {
   color: var(--color-a);
   font-family:"times new roman";
-}  /* ← This was missing */
-
+}
 .grid {
   display:grid;
   grid-template-columns:repeat(3,1fr);
