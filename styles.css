@@ -20,28 +20,40 @@ p {
 
 h1{
   color: var(--color-fg);
-  text-shadow:  0 0 10px var(--color-a), 0 0 20px var(--color-a), 0 0 30px var(--color-a), 0 0 40px var(--color-a);
+  text-shadow: 0 0 10px var(--color-a), 0 0 20px var(--color-a), 0 0 30px var(--color-a), 0 0 40px var(--color-a);
 }
 
 h2{
   color: var(--color-fg);
-  text-shadow:  0 0 10px var(--color-a), 0 0 20px var(--color-a), 0 0 30px var(--color-a), 0 0 40px var(--color-a);
+  text-shadow: 0 0 10px var(--color-a), 0 0 20px var(--color-a), 0 0 30px var(--color-a), 0 0 40px var(--color-a);
+}  /* ← This was missing */
 
 a {
   color: var(--color-a);
   font-family:"times new roman";
-  }
-.grid {display:grid;
-       grid-template-columns:repeat(3,1fr);
-       row-gap:30px;
-}
-.col2 {grid-column:2;}
+}  /* ← This was missing */
 
-.row1 {grid-row:1;}
-.row2 {grid-row:2;}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  row-gap:30px;
+}
+
+.col2 {
+  grid-column:2;
+}
+
+.row1 {
+  grid-row:1;
+}
+
+.row2 {
+  grid-row:2;
+}
+
 footer {
   background-color: #2b2b2b;
   color: white;
   text-align: center;
   font-size: 75%;
-}
+}  /* ← This will now be applied! */
